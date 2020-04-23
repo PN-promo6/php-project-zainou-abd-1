@@ -1,3 +1,7 @@
+<?php
+// require '../vendor/autoload.php';
+// new User
+?>
 <html lang="en">
 
 <head>
