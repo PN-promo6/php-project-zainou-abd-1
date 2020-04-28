@@ -8,8 +8,7 @@ class Anime
 {
   public $id;
   public $title;
-  public $category;
+  public $origin;
   public $creationDate;
-  public $description;  
-  public User $user;
+  public $description;
 }

@@ -1,6 +1,40 @@
 <?php
-// require '../vendor/autoload.php';
-// new User
+
+use Entity\Anime;
+use Entity\User;
+require '../vendor/autoload.php';
+
+$userZainoudine = new User();
+$userZainoudine->id = 1;
+$userZainoudine->nickname = "Zainou";
+$userZainoudine->password = "abcdefg";
+
+$anime1 = new Anime();
+$anime1->id = 1;
+$anime1->title = "One Piece";
+$anime1->origin = "Manga";
+$anime1->airingDate = 1999;
+$anime1->description = "The man who wanted to be pirate king";
+
+$anime2 = new Anime();
+$anime2->id = 2;
+$anime2->title = "Naruto";
+$anime2->origin = "Manga";
+$anime2->airingDate = 2002;
+$anime2->description = "The boy who wanted to be Hokage";
+
+$anime3 = new Anime();
+$anime3->id = 3;
+$anime3->title = "HunterxHunter";
+$anime3->origin = "Manga";
+$anime3->airingDate = 1999;
+$anime3->description = "The boy who wanted to be a Hunter to find his father";
+
+// other objects creations
+
+$items = array($anime1,$anime2,$anime3);
+
+
 ?>
 <html lang="en">
 
